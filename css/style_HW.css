@@ -1,0 +1,38 @@
+
+    
+    #container {
+        width: 946px;
+        margin: 0 auto;
+        border: 1px solid #1C66B9;
+        background-color: #113A6D;
+    }
+    
+    #banner {
+        width: 946px;
+        height: 142px;
+        background-image: url("./images/banner.jpg");
+        margin: 0 auto;
+    }
+    
+    #content {
+        background-color: #D1EFFD;        
+        font-size: 15px;
+        padding: 10px;
+        margin-top: 1px;
+    }
+    
+    #footer {
+        background-color: #1586A0;
+        color: #FFFFFF;
+        padding: 10px;
+        font-size: 12px;
+        height: 60px;
+    }
+    
+    h2 {
+        color: #113D9D;
+    }
+    
+    h4 {
+        color: #1D45AB;
+    }

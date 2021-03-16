@@ -1,0 +1,84 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
+    font-size: 16px;
+}
+
+nav {
+    background-color: darkblue;
+    width: 100%;
+}
+
+ul {
+    width: 95%;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    padding: 10px;
+    color: #FFFFFF;
+    text-align: right;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+@media screen and (max-width: 450px) {
+    .menu {
+        display: block;
+    }
+
+    ul {
+        display: none;
+    }
+
+    ul li {
+        display: block;
+    }
+
+}
+main{
+  display: flex;
+  justify-content: center;/* center / flex-start / flex-end */
+  align-items: stretch;/* center / stretch / flex-start / flex-end*/
+  flex-wrap: wrap;
+}
+.item{
+  background-color: #E7F7D0;
+  margin: 5px;
+  padding: 5px;
+  flex: none;
+  width: 300px;
+  /*display:inline-block;*/
+}
+
+@media screen and (max-width: 1200px) {
+  .item{
+      width: 30%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .item{
+      width: 45%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .item{
+      width: 90%;
+  }
+}
